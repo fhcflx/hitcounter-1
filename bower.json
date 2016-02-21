@@ -16,6 +16,6 @@
     "tests"
   ],
   "dependencies": {
-    "fittext": "*"
+    "odometer": "~0.4.7"
   }
 }

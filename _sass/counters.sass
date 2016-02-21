@@ -1,11 +1,27 @@
 #basic
-  display: table
-  border: 1px solid
 
-  .tr
-    display: table-row
+  .table
+    display: table
+    border: 1px solid
 
-    .td
-      display: table-cell
+    .tr
+      display: table-row
+
+      .td
+        display: table-cell
+
+        .aspect-ratio
+          position: relative
+          font-size: 76px
+          border-right: 1px solid black
+
+          &:last-child .aspect-ratio
+          border-right: 0
+
+          .digit
+            //position: absolute
+            //left: 50%
+            //top: 50%
+            //transform: translate(-50%, -50%)
 
 

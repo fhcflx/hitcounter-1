@@ -1,4 +1,8 @@
 #basic
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+  display: inline-block
+  background: #B5E0F1
+  text-align: center
 
   .table
     display: table
@@ -10,18 +14,17 @@
       .td
         display: table-cell
 
-        .aspect-ratio
-          position: relative
-          font-size: 76px
-          border-right: 1px solid black
-
-          &:last-child .aspect-ratio
+        &:last-child .aspect-ratio
           border-right: 0
 
+        .aspect-ratio
+          // position: relative
+          font-size: 600%
+          border-right: 1px solid black
+
           .digit
-            //position: absolute
-            //left: 50%
-            //top: 50%
-            //transform: translate(-50%, -50%)
-
-
+            padding: 0 15px
+          //position: absolute
+          //background: yellow
+          //left: 50%
+          //transform: translate(-50%,0)

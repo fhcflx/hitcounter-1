@@ -14,5 +14,33 @@
 
       </div>
     </div>
+
+    <script>
+      // A $( document ).ready() block.
+      $( document ).ready(function() {
+
+
+
+
+//        $('.odometer').html(0000);
+
+        setTimeout(function(){
+
+          var el = document.querySelector('.odometer-custom');
+
+          od = new Odometer({
+            el: el,
+
+            // Any option (other than auto and selector) can be passed in here
+            format: ''
+          });
+
+          od.update(3512)
+
+        }, 2000);
+
+      });
+    </script>
+
   </body>
 </html>

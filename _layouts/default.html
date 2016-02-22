@@ -7,10 +7,10 @@
       <div class="wrapper">
         {{ content }}
 
+        {% include counters/odometer.html %}
+
         {% include counters/basic.html %}
 
-
-        {% include counters/odometer.html %}
 
       </div>
     </div>
@@ -32,7 +32,8 @@
             el: el,
 
             // Any option (other than auto and selector) can be passed in here
-            format: ''
+            format: '',
+            theme: 'default'
           });
 
           od.update(3512)
